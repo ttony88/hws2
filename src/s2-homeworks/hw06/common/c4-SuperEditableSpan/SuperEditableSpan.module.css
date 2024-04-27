@@ -1,10 +1,15 @@
 .spanBlock {
+    display: flex;
+    align-items:center;
+    gap: 10px;
 }
 
 .span {
+    color: rgba(0, 128, 255, 1);
 }
 
 .input {
+    padding-left: 10px;
 }
 
 .pen {

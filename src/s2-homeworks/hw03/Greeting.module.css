@@ -2,21 +2,44 @@
 }
 
 .inputAndButtonContainer {
+    display: flex;
+    gap: 10px
 }
 
 .error {
+    font-family: Montserrat;
+    color: rgba(204, 0, 0, 1);
 }
 
 .input {
+    outline: none;
+    width: 370px;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-family: Montserrat;
 }
 
 .input:focus {
 }
 
 .errorInput {
+    outline: none;
+    width: 370px;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid rgba(204, 0, 0, 1);
+    
 }
 
 .button {
+    width: 80px;
+    height: 35px;
+    border-radius: 3px;
+    background-color: rgba(0, 102, 204, 1);
+    color: #fff;
+    font-family: Montserrat;
 }
 
 .button:focus {
@@ -26,9 +49,12 @@
 }
 
 .button:disabled {
+    background-color: rgba(0, 102, 204, 0.5);
 }
 
 .text {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Montserrat;
 }
 
 .greeting {
