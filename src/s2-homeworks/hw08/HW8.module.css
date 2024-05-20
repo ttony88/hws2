@@ -1,4 +1,5 @@
 .item {
+
 }
 
 .item:last-of-type {
@@ -8,16 +9,26 @@
 }
 
 .buttonsContainer {
+    margin-left: 100px;
+    margin-bottom: 20px;
 }
 
 .container {
 }
 
 .thead {
+    display: block;
+    background-color: #E5E5E5;
 }
 
 .nameCol {
+    font-weight: 600;
+    font-family: 'Roboto';
+    padding: 5px 200px 5px 5px;
 }
 
 .ageCol {
+    font-weight: 600;
+    font-family: 'Roboto';
+    padding: 5px 200px 5px 5px;
 }

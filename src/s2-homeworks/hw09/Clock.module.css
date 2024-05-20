@@ -1,14 +1,21 @@
 .buttonsContainer {
+    margin-top: 50px;
 }
 
 .clock {
 }
 
 .watch {
+    font-family: Montserrat;
+    font-size: 20px;
+
 }
 
 .watch strong {
 }
 
 .more {
+    color:rgba(0, 0, 0, 0.5);
+    font-family: Montserrat;
+    font-size: 16px;
 }
