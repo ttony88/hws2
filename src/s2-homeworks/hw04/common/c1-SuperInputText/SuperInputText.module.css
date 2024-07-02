@@ -1,7 +1,9 @@
 .input:focus {
+    border-color: aqua;
 }
 
 .input {
+    padding-left: 10px;
     width: 370px;
     height: 35px;
     outline: none;
